@@ -1,0 +1,25 @@
+{
+  "name": "chapter02",
+  "version": "1.0.0",
+  "description": "chapter02 setup with npm init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc",
+    "lint": "eslint --fix .",
+    "prettier-format": "prettier --config .prettierrc 'src/*.ts' --write"
+  },
+  "author": "Tim O'Hare",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^13.13.15",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "eslint": "^7.6.0",
+    "prettier": "^2.0.5",
+    "tslint": "^6.1.1",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {},
+  "keywords": []
+}
